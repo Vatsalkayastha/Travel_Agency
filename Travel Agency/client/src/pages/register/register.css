@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.login {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1618944913558-d5e77e882684?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHx3aXphcmRpbmclMjB3b3JsZCUyMG9mJTIwaGFycnklMjBwb3R0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lInput{
+  height: 20px;
+  padding: 10px;
+  width: 255px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.logo{
+  color: #91a061;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.link{
+  padding: 2px;
+}
+
+.connect{
+  color: #f3ffb5
+}
+
+@media only screen and (max-width: 767px) {
+  .lContainer {
+    width: 80%; 
+    margin: auto; 
+  }
+
+  .lInput {
+    width: 100%; 
+  }
+
+  .lButton {
+    width: 100%; 
+  }
+}
